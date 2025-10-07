@@ -1,3 +1,7 @@
+# komari-agent卸载
+```bash
+sudo systemctl stop komari-agent && sudo systemctl disable komari-agent && sudo rm -f /etc/systemd/system/komari-agent.service && sudo systemctl daemon-reload && sudo rm -rf /opt/komari /var/log/komari
+```
 # ServerSentry - 现代化服务器监控面板
 
 一个基于 Next.js 15 + React 19 的现代化服务器监控主题，专为 Komari 服务端设计，使用 TypeScript、Tailwind CSS 4 和现代 React 技术栈构建。
