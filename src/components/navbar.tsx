@@ -58,7 +58,6 @@ export const Navbar: React.FC = React.memo(function Navbar() {
   }, [openMenu]);
 
   const getIcon = () => theme === 'system' ? <MonitorIcon /> : resolvedTheme === 'dark' ? <MoonIcon /> : <SunIcon />;
-  const getLabel = () => theme === 'system' ? '跟随系统' : resolvedTheme === 'dark' ? '深色模式' : '浅色模式';
 
   if (!mounted) {
     return (
@@ -90,7 +89,7 @@ export const Navbar: React.FC = React.memo(function Navbar() {
               className="flex items-center space-x-1 rounded-lg px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800 transition-colors"
             >
               {getIcon()}
-              <span>{getLabel()}</span>
+              {/* 移除文字部分 */}
             </button>
 
             {openMenu && (
