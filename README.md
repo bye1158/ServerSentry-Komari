@@ -6,6 +6,8 @@ sudo systemctl stop komari-agent && sudo systemctl disable komari-agent && sudo 
 
 一个基于 Next.js 15 + React 19 的现代化服务器监控主题，专为 Komari 服务端设计，使用 TypeScript、Tailwind CSS 4 和现代 React 技术栈构建。
 
+<img width="2004" height="1121" alt="image" src="https://github.com/user-attachments/assets/8e18a7ae-2c9b-4deb-9578-3f6bf4ddfcad" />
+
 ## ✨ 功能特点
 
 - 🚀 **现代技术栈**：Next.js 15 + React 19 + TypeScript + Tailwind CSS 4
