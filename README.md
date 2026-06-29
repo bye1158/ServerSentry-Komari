@@ -17,7 +17,7 @@ sudo systemctl stop komari-agent && sudo systemctl disable komari-agent && sudo 
 - 🎨 **现代 UI**：基于 Shadcn UI 的优雅设计，支持深色/浅色模式
 - 📱 **响应式设计**：完美适配桌面、平板和移动设备
 - ⚡ **高性能**：Turbopack 开发模式，优化的生产构建
-- 🔄 **实时更新**：2秒间隔自动刷新，支持 WebSocket 连接
+- 🔄 **实时更新**：6秒间隔自动刷新，支持 WebSocket 连接
 - 🏷️ **地区分组**：支持按地区分组显示服务器
 - 🧩 **模块化架构**：组件化设计，易于定制和扩展
 
