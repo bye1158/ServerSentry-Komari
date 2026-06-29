@@ -23,7 +23,7 @@ export const config = {
    * 刷新/缓存时间设置（毫秒）
    */
   refresh: {
-    serversMs: 2000,
+    serversMs: 6000,
     publicStaleMs: 5_000,
   },
 
