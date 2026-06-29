@@ -21,7 +21,7 @@ interface ServerCardProps {
 }
 
 export const ServerCard: React.FC<ServerCardProps> = React.memo(function ServerCard({ server }) {
-  const isOnline = server.online4 || server.online6;
+  const isOnline = server.online4 || server.online6 || server.online;
 
   // CPU 显示格式化，限制最多1位小数（移至 utils）
   const cpuFormatter = React.useMemo(() => createCpuFormatter('zh-CN', 1), []);
