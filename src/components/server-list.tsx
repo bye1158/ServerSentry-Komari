@@ -19,8 +19,9 @@ export const ServerList: React.FC = React.memo(function ServerList() {
       }
 
       // 然后按照在线状态排序（在线优先）
-      const aOnline = a.online4 || a.online6;
-      const bOnline = b.online4 || b.online6;
+      const aOnline = a.online4 || a.online6 || a.online;
+      const bOnline = b.online4 || b.online6 || b.online;
+
       if (aOnline !== bOnline) {
         return bOnline ? 1 : -1;
       }
