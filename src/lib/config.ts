@@ -24,7 +24,7 @@ export const config = {
    */
   refresh: {
     serversMs: 6000,
-    publicStaleMs: 5_000,
+    publicStaleMs: 10_000,
   },
 
   /**
